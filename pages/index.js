@@ -1,7 +1,8 @@
 import Head from "next/head";
+// import NewsletterSection from "../components/NewsletterSection";
 import Products from "../components/Products";
 import Products_title from "../components/Products_title";
-import SectionBaner from "../components/SectionBaner";
+import Products_title_blog from "../components/Products_title_blog";
 import Slider_main from "../components/Slider_main";
 
 export default function Home() {
@@ -16,8 +17,9 @@ export default function Home() {
       <Slider_main />
       <Products_title />
       <Products />
-      <Products_title />
-      <SectionBaner />
+
+      {/* <NewsletterSection /> */}
+      <Products_title_blog />
     </>
   );
 }

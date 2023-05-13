@@ -1,0 +1,65 @@
+/* .section_banar .overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  z-index: 2;
+}
+
+.section_banar {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../public/img/banar.jpeg");
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+}
+.section_banar h1 {
+  font-size: 2.4rem;
+  color: black;
+  text-align: center;
+}
+.section_banar form {
+  max-width: 55rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  
+}
+.section_banar form .box {
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+  outline: none;
+  border-radius: 10px;
+  z-index: 100;
+}
+.section_banar form .btn {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 10px;
+  line-height: 40px;
+  border-style: solid;
+  border-color: rgb(7, 7, 7);
+  color: rgb(0, 0, 0);
+  z-index: 100;
+}
+.section_banar form .btn:hover {
+  background-color: rgb(7, 7, 7);
+  color: #fff;
+} */
+
+/* =start== */
+.section_banar {
+  background-color: ;
+}
+/* = end== */
