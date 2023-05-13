@@ -57,14 +57,16 @@ const Header = () => {
             <nav>
               <ul>
                 <li>
-                  <Link href="#">Home</Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
                   <Link href="#">Product</Link>
                 </li>
               </ul>
             </nav>
-            <div className={styles.logo}>NABIL_SHOP</div>
+            <div className={styles.logo}>
+              <Link href="/">NABIL_SHOP</Link>
+            </div>
             <nav>
               <ul>
                 <li>
@@ -96,7 +98,7 @@ const Header = () => {
         </div>
         <ul>
           <li>
-            <Link href="#" className="" to="/">
+            <Link href="/" className="" to="/">
               Home
             </Link>
           </li>

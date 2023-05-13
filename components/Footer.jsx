@@ -8,9 +8,7 @@ const Footer = () => {
       <div className={styles.grupo_1}>
         <div className={styles.box}>
           <figure>
-            <a href="#">
-              <img src="img/logotipo-sleedw.svg" alt="Logo de SLee Dw" />
-            </a>
+            <h1>Nabil_shop</h1>
           </figure>
         </div>
         <div className={styles.box}>
@@ -25,24 +23,21 @@ const Footer = () => {
         <div className={styles.box}>
           <h2>SIGUENOS</h2>
           <div className={styles.red_social}>
-            <Link href="#" className="fa fa-facebook">
-              x
+            <Link href="#">
+              <i className="ri-facebook-line"></i>
             </Link>
-            <Link href="#" className="fa fa-instagram">
-              x
+            <Link href="#">
+              <i className="ri-instagram-line"></i>
             </Link>
-            <Link href="#" className="fa fa-twitter">
-              x
-            </Link>
-            <Link href="#" className="fa fa-youtube">
-              x
+            <Link href="#">
+              <i className="ri-twitter-line"></i>
             </Link>
           </div>
         </div>
       </div>
       <div className={styles.grupo_2}>
         <small>
-          &copy; 2021 <b>SLee Dw</b> - Todos los Derechos Reservados.
+          &copy; 2023 <b>ismailsafha</b> - Todos los Derechos Reservados.
         </small>
       </div>
     </footer>

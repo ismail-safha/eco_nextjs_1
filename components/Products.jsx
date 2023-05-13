@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import styles from "../styles/Products.module.css";
 
 const dataProduct = [
@@ -57,30 +56,35 @@ const Products = () => {
   return (
     <div className={`${styles["container"]} ${styles["product_title"]}`}>
       <section className={styles.products}>
-        {dataProduct.map((p, i) => (
+        {dataProduct?.map((p, i) => (
           <div key={i} className={styles.product_card}>
             <div className={styles.product_img}>
               <div className={styles.thumbnail}>
-                <img src={p.imgUrl} alt={p.productName} />
+                <Link href="/cart">
+                  <img src={p.imgUrl} alt={p.productName} />
+                </Link>
               </div>
               <div className={`${styles["thumbnail"]} ${styles["hover"]}`}>
-                <img src={p.imgUrlThm} alt={p.productName} />
+                <Link href="/cart">
+                  <img src={p.imgUrlThm} alt={p.productName} />
+                </Link>
               </div>
               <div className={styles.actions}>
                 <ul>
                   <li>
-                    <Link href="">
+                    <Link href="/cart">
                       <i className="ri-star-line"></i>
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/cart">
                       <i className="ri-eye-line"></i>
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
+
             <div className={styles.product_info}>
               <h2 className={styles.product_title}>{p.productName}</h2>
               <div className={styles.product_price}>
