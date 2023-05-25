@@ -65,7 +65,7 @@ const Header = () => {
               </ul>
             </nav>
             <div className={styles.logo}>
-              <Link href="/">NABIL_SHOP</Link>
+              <Link href="/">RUGS_SHOP</Link>
             </div>
             <nav>
               <ul>

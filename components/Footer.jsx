@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={styles.grupo_1}>
         <div className={styles.box}>
           <figure>
-            <h1>Nabil_shop</h1>
+            <h1>RUGS_SHOP</h1>
           </figure>
         </div>
         <div className={styles.box}>
